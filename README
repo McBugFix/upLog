@@ -1,8 +1,1 @@
-/**
- * A KISS style php logging class
- * Automatically deletes log files after a period of time
- *
- * @author Uli Pahlke <github@matrix-tools.de>
- * @link http://www.matrix-tools.de
- * @version 0.1
- */
+Hello World!
