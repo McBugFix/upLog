@@ -1,1 +1,13 @@
-Hello World!
+A KISS style php logging class
+Automatically deletes log files after a period of time
+
+@author Uli Pahlke <github@matrix-tools.de>
+@link http://www.matrix-tools.de
+@version 0.1
+
+Usage
+$log = new upLog('logs/');
+$log->deleteAfterDays = 7;
+$log->setFilename = 'error';
+$log->writeLog('Log error string to error.log...');
+$log->writeLog('Log debug string to debug.log...','debug');
